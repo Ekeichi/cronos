@@ -1,8 +1,8 @@
 import pytest
 
-from training_plan.domain.enums import Phase
-from training_plan.domain.models import MacrocycleBlock
-from training_plan.generation.macrocycle import generate_macrocycle_plan
+from domain.enums import Phase
+from domain.models import MacrocycleBlock
+from generation.macrocycle import generate_macrocycle_plan
 
 
 # ---------------------------------------------------------------------------

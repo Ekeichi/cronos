@@ -1,8 +1,8 @@
 """Macrocycle : assemblage des blocs (mésocycles BASE/SPECIFIC + bloc TAPER)."""
 
-from training_plan.domain.enums import Phase
-from training_plan.domain.models import MacrocycleBlock, SessionSlot
-from training_plan.generation.week_template import generate_week_template
+from domain.enums import Phase
+from domain.models import MacrocycleBlock, SessionSlot
+from generation.week_template import generate_week_template
 
 
 def generate_macrocycle_plan(

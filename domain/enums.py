@@ -1,4 +1,4 @@
-"""Enums partagés par l'ensemble du package training_plan."""
+"""Enums partagés par l'ensemble du projet."""
 
 from enum import Enum
 

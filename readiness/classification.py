@@ -7,13 +7,13 @@ signaux de readiness. Elle peut être remplacée/étendue indépendamment
 (règles -> ML) sans toucher à generate_week_template / generate_macrocycle_plan.
 """
 
-from training_plan.config.loader import (
+from config.loader import (
     ACWR_DANGER_THRESHOLD,
     DEFAULT_READINESS_THRESHOLDS,
     MONOTONY_DANGER_THRESHOLD,
 )
-from training_plan.domain.enums import ReadinessBand
-from training_plan.domain.models import ReadinessSignals
+from domain.enums import ReadinessBand
+from domain.models import ReadinessSignals
 
 
 def classify_readiness(

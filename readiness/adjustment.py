@@ -1,8 +1,8 @@
 """Couche readiness : ajustement des séances d'une semaine déjà générée."""
 
-from training_plan.domain.enums import Priority, ReadinessBand, SessionRole
-from training_plan.domain.models import ReadinessSignals, SessionSlot
-from training_plan.readiness.classification import classify_readiness
+from domain.enums import Priority, ReadinessBand, SessionRole
+from domain.models import ReadinessSignals, SessionSlot
+from readiness.classification import classify_readiness
 
 # --- Helpers de transformation d'un slot ------------------------------------
 

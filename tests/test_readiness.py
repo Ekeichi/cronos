@@ -1,16 +1,16 @@
 import pytest
 
-from training_plan.config.loader import (
+from config.loader import (
     ACWR_DANGER_THRESHOLD,
     DEFAULT_READINESS_THRESHOLDS,
     MONOTONY_DANGER_THRESHOLD,
 )
-from training_plan.domain.enums import Priority, ReadinessBand, SessionRole
-from training_plan.domain.models import ReadinessSignals, SessionSlot
-from training_plan.readiness.adjustment import adjust_session, adjust_week
-from training_plan.readiness.classification import classify_readiness
-from training_plan.generation.week_template import generate_week_template
-from training_plan.domain.enums import Phase
+from domain.enums import Priority, ReadinessBand, SessionRole
+from domain.models import ReadinessSignals, SessionSlot
+from readiness.adjustment import adjust_session, adjust_week
+from readiness.classification import classify_readiness
+from generation.week_template import generate_week_template
+from domain.enums import Phase
 
 
 # ---------------------------------------------------------------------------

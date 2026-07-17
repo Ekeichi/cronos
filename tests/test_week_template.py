@@ -1,7 +1,7 @@
 import pytest
 
-from training_plan.domain.enums import Phase
-from training_plan.generation.week_template import generate_week_template
+from domain.enums import Phase
+from generation.week_template import generate_week_template
 
 
 # ---------------------------------------------------------------------------

@@ -8,10 +8,10 @@ Il produit le "plan idéal si tout va bien" — la baseline sur laquelle
 l'heuristique de readiness viendra moduler intensité/volume/contenu.
 """
 
-from training_plan.config.loader import PHASE_TEMPLATES
-from training_plan.domain.enums import Phase
-from training_plan.domain.models import SessionSlot
-from training_plan.generation.progression import _taper_multiplier, _volume_multiplier
+from config.loader import PHASE_TEMPLATES
+from domain.enums import Phase
+from domain.models import SessionSlot
+from generation.progression import _taper_multiplier, _volume_multiplier
 
 
 def _resolve_slots(

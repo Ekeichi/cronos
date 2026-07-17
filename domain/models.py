@@ -1,8 +1,8 @@
-"""Structures de données partagées par l'ensemble du package training_plan."""
+"""Structures de données partagées par l'ensemble du projet."""
 
 from dataclasses import dataclass
 
-from training_plan.domain.enums import Phase, Priority, SessionRole
+from domain.enums import Phase, Priority, SessionRole
 
 
 @dataclass

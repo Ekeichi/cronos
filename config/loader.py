@@ -11,8 +11,8 @@ from pathlib import Path
 
 import yaml
 
-from training_plan.domain.enums import Phase, Priority, SessionRole
-from training_plan.domain.models import SlotTemplate
+from domain.enums import Phase, Priority, SessionRole
+from domain.models import SlotTemplate
 
 _CONFIG_DIR = Path(__file__).parent
 

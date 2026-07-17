@@ -1,6 +1,6 @@
 """Multiplicateurs de volume hebdo : progression mésocycle et décroissance taper."""
 
-from training_plan.config.loader import DEFAULT_TAPER_DECAY
+from config.loader import DEFAULT_TAPER_DECAY
 
 # ---------------------------------------------------------------------------
 # Progression mésocycle (schéma 3:1 build/deload par défaut)

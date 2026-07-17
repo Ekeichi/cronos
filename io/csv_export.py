@@ -2,7 +2,7 @@
 
 import csv
 
-from training_plan.domain.models import SessionSlot
+from domain.models import SessionSlot
 
 
 def export_plan_to_csv(plan: dict[int, list[SessionSlot]], filepath: str) -> None:
