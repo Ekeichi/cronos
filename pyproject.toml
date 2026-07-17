@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cronos"
+version = "0.1.0"
+description = "Génération de plans d'entraînement trail : squelette hebdo, macrocycle, readiness."
+requires-python = ">=3.10"
+dependencies = [
+    "PyYAML>=6.0.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.setuptools]
+packages = ["domain", "generation", "readiness", "config", "io"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
