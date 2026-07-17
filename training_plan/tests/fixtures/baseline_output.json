@@ -1,0 +1,3069 @@
+{
+  "adjust_session": {
+    "COTES_CRITICAL": {
+      "d_plus_target_m": 0.0,
+      "day_position": 4,
+      "duration_min": 17.5,
+      "intensity_zone": "Z1",
+      "notes": "[readiness] remplacé (repos/récup) — séance COTES initialement prévue",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    "COTES_HIGH": {
+      "d_plus_target_m": 600,
+      "day_position": 4,
+      "duration_min": 35,
+      "intensity_zone": "cotes",
+      "notes": "cotes notes",
+      "priority": "HARD",
+      "role": "COTES"
+    },
+    "COTES_LOW": {
+      "d_plus_target_m": 360.0,
+      "day_position": 4,
+      "duration_min": 21.0,
+      "intensity_zone": "cotes",
+      "notes": "[readiness] réduit (60%) — cotes notes",
+      "priority": "HARD",
+      "role": "COTES"
+    },
+    "COTES_NORMAL": {
+      "d_plus_target_m": 600,
+      "day_position": 4,
+      "duration_min": 35,
+      "intensity_zone": "cotes",
+      "notes": "cotes notes",
+      "priority": "HARD",
+      "role": "COTES"
+    },
+    "EF_CRITICAL": {
+      "d_plus_target_m": 0,
+      "day_position": 1,
+      "duration_min": 40,
+      "intensity_zone": "Z1",
+      "notes": "ef notes",
+      "priority": "SOFT",
+      "role": "EF"
+    },
+    "EF_HIGH": {
+      "d_plus_target_m": 0,
+      "day_position": 1,
+      "duration_min": 40,
+      "intensity_zone": "Z1",
+      "notes": "ef notes",
+      "priority": "SOFT",
+      "role": "EF"
+    },
+    "EF_LOW": {
+      "d_plus_target_m": 0,
+      "day_position": 1,
+      "duration_min": 40,
+      "intensity_zone": "Z1",
+      "notes": "ef notes",
+      "priority": "SOFT",
+      "role": "EF"
+    },
+    "EF_NORMAL": {
+      "d_plus_target_m": 0,
+      "day_position": 1,
+      "duration_min": 40,
+      "intensity_zone": "Z1",
+      "notes": "ef notes",
+      "priority": "SOFT",
+      "role": "EF"
+    },
+    "RECUP_CRITICAL": {
+      "d_plus_target_m": 0,
+      "day_position": 7,
+      "duration_min": 15,
+      "intensity_zone": "Z1",
+      "notes": "recup notes",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    "RECUP_HIGH": {
+      "d_plus_target_m": 0,
+      "day_position": 7,
+      "duration_min": 15,
+      "intensity_zone": "Z1",
+      "notes": "recup notes",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    "RECUP_LOW": {
+      "d_plus_target_m": 0,
+      "day_position": 7,
+      "duration_min": 15,
+      "intensity_zone": "Z1",
+      "notes": "recup notes",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    "RECUP_NORMAL": {
+      "d_plus_target_m": 0,
+      "day_position": 7,
+      "duration_min": 15,
+      "intensity_zone": "Z1",
+      "notes": "recup notes",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    "RENFO_CRITICAL": {
+      "d_plus_target_m": 0.0,
+      "day_position": 5,
+      "duration_min": 12.5,
+      "intensity_zone": "Z1",
+      "notes": "[readiness] remplacé (repos/récup) — séance RENFO initialement prévue",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    "RENFO_HIGH": {
+      "d_plus_target_m": 0,
+      "day_position": 5,
+      "duration_min": 25,
+      "intensity_zone": "",
+      "notes": "renfo notes",
+      "priority": "MODERATE",
+      "role": "RENFO"
+    },
+    "RENFO_LOW": {
+      "d_plus_target_m": 0,
+      "day_position": 5,
+      "duration_min": 25,
+      "intensity_zone": "",
+      "notes": "renfo notes",
+      "priority": "MODERATE",
+      "role": "RENFO"
+    },
+    "RENFO_NORMAL": {
+      "d_plus_target_m": 0,
+      "day_position": 5,
+      "duration_min": 25,
+      "intensity_zone": "",
+      "notes": "renfo notes",
+      "priority": "MODERATE",
+      "role": "RENFO"
+    },
+    "SEUIL_CRITICAL": {
+      "d_plus_target_m": 0.0,
+      "day_position": 2,
+      "duration_min": 25.0,
+      "intensity_zone": "Z1",
+      "notes": "[readiness] remplacé (repos/récup) — séance SEUIL initialement prévue",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    "SEUIL_HIGH": {
+      "d_plus_target_m": 250,
+      "day_position": 2,
+      "duration_min": 50,
+      "intensity_zone": "SV1-SV2",
+      "notes": "seuil notes",
+      "priority": "HARD",
+      "role": "SEUIL"
+    },
+    "SEUIL_LOW": {
+      "d_plus_target_m": 150.0,
+      "day_position": 2,
+      "duration_min": 30.0,
+      "intensity_zone": "SV1-SV2",
+      "notes": "[readiness] réduit (60%) — seuil notes",
+      "priority": "HARD",
+      "role": "SEUIL"
+    },
+    "SEUIL_NORMAL": {
+      "d_plus_target_m": 250,
+      "day_position": 2,
+      "duration_min": 50,
+      "intensity_zone": "SV1-SV2",
+      "notes": "seuil notes",
+      "priority": "HARD",
+      "role": "SEUIL"
+    },
+    "SL_CRITICAL": {
+      "d_plus_target_m": 0.0,
+      "day_position": 6,
+      "duration_min": 75.0,
+      "intensity_zone": "Z1-Z2",
+      "notes": "[readiness] raccourci (50%) — sl notes",
+      "priority": "HARD",
+      "role": "SL"
+    },
+    "SL_HIGH": {
+      "d_plus_target_m": 1400,
+      "day_position": 6,
+      "duration_min": 150,
+      "intensity_zone": "Z1-Z2",
+      "notes": "sl notes",
+      "priority": "HARD",
+      "role": "SL"
+    },
+    "SL_LOW": {
+      "d_plus_target_m": 1400,
+      "day_position": 6,
+      "duration_min": 150,
+      "intensity_zone": "Z1-Z2",
+      "notes": "sl notes",
+      "priority": "HARD",
+      "role": "SL"
+    },
+    "SL_NORMAL": {
+      "d_plus_target_m": 1400,
+      "day_position": 6,
+      "duration_min": 150,
+      "intensity_zone": "Z1-Z2",
+      "notes": "sl notes",
+      "priority": "HARD",
+      "role": "SL"
+    },
+    "VMA_CRITICAL": {
+      "d_plus_target_m": 0.0,
+      "day_position": 3,
+      "duration_min": 22.5,
+      "intensity_zone": "Z1",
+      "notes": "[readiness] remplacé (repos/récup) — séance VMA initialement prévue",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    "VMA_HIGH": {
+      "d_plus_target_m": 100,
+      "day_position": 3,
+      "duration_min": 45,
+      "intensity_zone": "VMA 100-110%",
+      "notes": "vma notes",
+      "priority": "HARD",
+      "role": "VMA"
+    },
+    "VMA_LOW": {
+      "d_plus_target_m": 60.0,
+      "day_position": 3,
+      "duration_min": 27.0,
+      "intensity_zone": "VMA 100-110%",
+      "notes": "[readiness] réduit (60%) — vma notes",
+      "priority": "HARD",
+      "role": "VMA"
+    },
+    "VMA_NORMAL": {
+      "d_plus_target_m": 100,
+      "day_position": 3,
+      "duration_min": 45,
+      "intensity_zone": "VMA 100-110%",
+      "notes": "vma notes",
+      "priority": "HARD",
+      "role": "VMA"
+    }
+  },
+  "adjust_week_critical": [
+    {
+      "d_plus_target_m": 0.0,
+      "day_position": 1,
+      "duration_min": 53.8,
+      "intensity_zone": "Z1",
+      "notes": "",
+      "priority": "SOFT",
+      "role": "EF"
+    },
+    {
+      "d_plus_target_m": 0.0,
+      "day_position": 2,
+      "duration_min": 26.9,
+      "intensity_zone": "Z1",
+      "notes": "[readiness] remplacé (repos/récup) — séance SEUIL initialement prévue",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    {
+      "d_plus_target_m": 0.0,
+      "day_position": 3,
+      "duration_min": 41.4,
+      "intensity_zone": "Z1",
+      "notes": "",
+      "priority": "SOFT",
+      "role": "EF"
+    },
+    {
+      "d_plus_target_m": 0.0,
+      "day_position": 4,
+      "duration_min": 26.9,
+      "intensity_zone": "Z1",
+      "notes": "[readiness] remplacé (repos/récup) — séance COTES initialement prévue",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    {
+      "d_plus_target_m": 0.0,
+      "day_position": 5,
+      "duration_min": 10.3,
+      "intensity_zone": "Z1",
+      "notes": "[readiness] remplacé (repos/récup) — séance RENFO initialement prévue",
+      "priority": "SOFT",
+      "role": "RECUP"
+    },
+    {
+      "d_plus_target_m": 0.0,
+      "day_position": 5,
+      "duration_min": 33.1,
+      "intensity_zone": "Z1",
+      "notes": "",
+      "priority": "SOFT",
+      "role": "EF"
+    },
+    {
+      "d_plus_target_m": 0.0,
+      "day_position": 6,
+      "duration_min": 58.0,
+      "intensity_zone": "Z1-Z2 + blocs allure course",
+      "notes": "[readiness] raccourci (50%) — D+/D- représentatif de la course cible, nutrition en conditions réelles",
+      "priority": "HARD",
+      "role": "SL"
+    },
+    {
+      "d_plus_target_m": 0.0,
+      "day_position": 7,
+      "duration_min": 20.7,
+      "intensity_zone": "Z1",
+      "notes": "[readiness] raccourci (50%) — back-to-back optionnel: 2e jour en fatigue cumulée",
+      "priority": "MODERATE",
+      "role": "SL"
+    }
+  ],
+  "classify_readiness": {
+    "acwr_and_monotony_both_danger_high_score": "LOW",
+    "acwr_at_danger_threshold_high_score": "LOW",
+    "acwr_danger_normal_score": "LOW",
+    "acwr_just_below_danger_threshold_high_score": "HIGH",
+    "custom_thresholds": "NORMAL",
+    "monotony_at_danger_threshold_high_score": "NORMAL",
+    "monotony_danger_but_normal_band_unaffected": "NORMAL",
+    "monotony_just_below_danger_threshold_high_score": "HIGH",
+    "score_0": "CRITICAL",
+    "score_100": "HIGH",
+    "score_at_critical_max": "CRITICAL",
+    "score_at_high_min": "HIGH",
+    "score_at_low_max": "LOW",
+    "score_just_above_critical_max": "LOW",
+    "score_just_above_low_max": "NORMAL",
+    "score_just_below_high_min": "NORMAL"
+  },
+  "macrocycle_plan": {
+    "1": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 57.6,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 250.0,
+        "day_position": 2,
+        "duration_min": 50.4,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 50.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 625.0,
+        "day_position": 4,
+        "duration_min": 43.2,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 21.6,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1375.0,
+        "day_position": 6,
+        "duration_min": 86.4,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 14.4,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "10": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 30.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 244.0,
+        "day_position": 2,
+        "duration_min": 30.4,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 488.0,
+        "day_position": 4,
+        "duration_min": 30.4,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 11.7,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.7,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 731.0,
+        "day_position": 6,
+        "duration_min": 65.5,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 162.0,
+        "day_position": 7,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "11": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 37.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 28.1,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 18.7,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 390.0,
+        "day_position": 4,
+        "duration_min": 22.5,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 28.1,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 910.0,
+        "day_position": 6,
+        "duration_min": 52.4,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "12": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 25.7,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 19.3,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 12.9,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 268.0,
+        "day_position": 4,
+        "duration_min": 15.4,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 19.3,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 626.0,
+        "day_position": 6,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "2": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 62.2,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 270.0,
+        "day_position": 2,
+        "duration_min": 54.4,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 54.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 675.0,
+        "day_position": 4,
+        "duration_min": 46.7,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 23.3,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 38.9,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1485.0,
+        "day_position": 6,
+        "duration_min": 93.3,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 15.6,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "3": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 66.2,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 288.0,
+        "day_position": 2,
+        "duration_min": 58.0,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 58.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 719.0,
+        "day_position": 4,
+        "duration_min": 49.7,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 24.8,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 41.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1581.0,
+        "day_position": 6,
+        "duration_min": 99.4,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 16.6,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 37.4,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 162.0,
+        "day_position": 2,
+        "duration_min": 32.8,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 32.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 406.0,
+        "day_position": 4,
+        "duration_min": 28.1,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 14.0,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 894.0,
+        "day_position": 6,
+        "duration_min": 56.2,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 9.4,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "5": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 46.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 375.0,
+        "day_position": 2,
+        "duration_min": 46.8,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 750.0,
+        "day_position": 4,
+        "duration_min": 46.8,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.0,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 28.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1125.0,
+        "day_position": 6,
+        "duration_min": 100.8,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 250.0,
+        "day_position": 7,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "6": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 50.5,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 405.0,
+        "day_position": 2,
+        "duration_min": 50.5,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 38.9,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 810.0,
+        "day_position": 4,
+        "duration_min": 50.5,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 19.4,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 31.1,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1215.0,
+        "day_position": 6,
+        "duration_min": 108.9,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 270.0,
+        "day_position": 7,
+        "duration_min": 38.9,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "7": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 53.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 431.0,
+        "day_position": 2,
+        "duration_min": 53.8,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 41.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 862.0,
+        "day_position": 4,
+        "duration_min": 53.8,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 20.7,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 33.1,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1294.0,
+        "day_position": 6,
+        "duration_min": 115.9,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 288.0,
+        "day_position": 7,
+        "duration_min": 41.4,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "8": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 30.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 244.0,
+        "day_position": 2,
+        "duration_min": 30.4,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 488.0,
+        "day_position": 4,
+        "duration_min": 30.4,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 11.7,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.7,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 731.0,
+        "day_position": 6,
+        "duration_min": 65.5,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 162.0,
+        "day_position": 7,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "9": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 46.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 375.0,
+        "day_position": 2,
+        "duration_min": 46.8,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 750.0,
+        "day_position": 4,
+        "duration_min": 46.8,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.0,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 28.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1125.0,
+        "day_position": 6,
+        "duration_min": 100.8,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 250.0,
+        "day_position": 7,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ]
+  },
+  "macrocycle_plan_taper1": {
+    "1": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 48.0,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 200.0,
+        "day_position": 2,
+        "duration_min": 42.0,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 42.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 500.0,
+        "day_position": 4,
+        "duration_min": 36.0,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.0,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 30.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1100.0,
+        "day_position": 6,
+        "duration_min": 72.0,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 12.0,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "2": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 51.8,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 216.0,
+        "day_position": 2,
+        "duration_min": 45.4,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 45.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 540.0,
+        "day_position": 4,
+        "duration_min": 38.9,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 19.4,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 32.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1188.0,
+        "day_position": 6,
+        "duration_min": 77.8,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 13.0,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "3": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 31.2,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 130.0,
+        "day_position": 2,
+        "duration_min": 27.3,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 27.3,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 325.0,
+        "day_position": 4,
+        "duration_min": 23.4,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 11.7,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 19.5,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 715.0,
+        "day_position": 6,
+        "duration_min": 46.8,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 7.8,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 21.5,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 16.1,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 10.7,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 193.0,
+        "day_position": 4,
+        "duration_min": 12.9,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 16.1,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 450.0,
+        "day_position": 6,
+        "duration_min": 30.0,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ]
+  },
+  "macrocycle_plan_taper3": {
+    "1": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 54.6,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 480.0,
+        "day_position": 2,
+        "duration_min": 54.6,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 42.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 960.0,
+        "day_position": 4,
+        "duration_min": 54.6,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 21.0,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 33.6,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1440.0,
+        "day_position": 6,
+        "duration_min": 117.6,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 320.0,
+        "day_position": 7,
+        "duration_min": 42.0,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "2": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 59.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 518.0,
+        "day_position": 2,
+        "duration_min": 59.0,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 45.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1037.0,
+        "day_position": 4,
+        "duration_min": 59.0,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 22.7,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 36.3,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1555.0,
+        "day_position": 6,
+        "duration_min": 127.0,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 346.0,
+        "day_position": 7,
+        "duration_min": 45.4,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "3": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 62.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 552.0,
+        "day_position": 2,
+        "duration_min": 62.8,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 48.3,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1104.0,
+        "day_position": 4,
+        "duration_min": 62.8,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 24.1,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 38.6,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1656.0,
+        "day_position": 6,
+        "duration_min": 135.2,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 368.0,
+        "day_position": 7,
+        "duration_min": 48.3,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 35.5,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 312.0,
+        "day_position": 2,
+        "duration_min": 35.5,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 27.3,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 624.0,
+        "day_position": 4,
+        "duration_min": 35.5,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 13.7,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 21.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 936.0,
+        "day_position": 6,
+        "duration_min": 76.4,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 208.0,
+        "day_position": 7,
+        "duration_min": 27.3,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "5": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 46.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 34.8,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 23.2,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 530.0,
+        "day_position": 4,
+        "duration_min": 27.8,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 34.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1238.0,
+        "day_position": 6,
+        "duration_min": 65.0,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "6": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 35.5,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 26.6,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 17.7,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 406.0,
+        "day_position": 4,
+        "duration_min": 21.3,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 26.6,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 946.0,
+        "day_position": 6,
+        "duration_min": 49.7,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "7": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 24.6,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 18.4,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 12.3,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 281.0,
+        "day_position": 4,
+        "duration_min": 14.7,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 655.0,
+        "day_position": 6,
+        "duration_min": 34.4,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ]
+  },
+  "week_template": {
+    "BASE_w1_of_4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 57.6,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 250.0,
+        "day_position": 2,
+        "duration_min": 50.4,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 50.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 625.0,
+        "day_position": 4,
+        "duration_min": 43.2,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 21.6,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1375.0,
+        "day_position": 6,
+        "duration_min": 86.4,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 14.4,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "BASE_w1_of_4_no_dplus": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 48.0,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 42.0,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 42.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 4,
+        "duration_min": 36.0,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.0,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 30.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 6,
+        "duration_min": 72.0,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 12.0,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "BASE_w2_of_4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 62.2,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 270.0,
+        "day_position": 2,
+        "duration_min": 54.4,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 54.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 675.0,
+        "day_position": 4,
+        "duration_min": 46.7,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 23.3,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 38.9,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1485.0,
+        "day_position": 6,
+        "duration_min": 93.3,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 15.6,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "BASE_w3_of_4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 66.2,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 288.0,
+        "day_position": 2,
+        "duration_min": 58.0,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 58.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 719.0,
+        "day_position": 4,
+        "duration_min": 49.7,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 24.8,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 41.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1581.0,
+        "day_position": 6,
+        "duration_min": 99.4,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 16.6,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "BASE_w4_of_4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 37.4,
+        "intensity_zone": "Z1",
+        "notes": "EF facile, terrain roulant",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 162.0,
+        "day_position": 2,
+        "duration_min": 32.8,
+        "intensity_zone": "SV1-SV2",
+        "notes": "tempo continu 20-30min",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 32.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 406.0,
+        "day_position": 4,
+        "duration_min": 28.1,
+        "intensity_zone": "côtes courtes 10-15%",
+        "notes": "force/puissance, faible impact articulaire",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 14.0,
+        "intensity_zone": "",
+        "notes": "excentrique + force max basse vitesse",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 894.0,
+        "day_position": 6,
+        "duration_min": 56.2,
+        "intensity_zone": "Z1-Z2",
+        "notes": "D+ modéré, focus volume/déplétion",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 9.4,
+        "intensity_zone": "Z1",
+        "notes": "décrassage ou repos",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "SPECIFIC_w1_of_4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 46.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 375.0,
+        "day_position": 2,
+        "duration_min": 46.8,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 750.0,
+        "day_position": 4,
+        "duration_min": 46.8,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.0,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 28.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1125.0,
+        "day_position": 6,
+        "duration_min": 100.8,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 250.0,
+        "day_position": 7,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "SPECIFIC_w1_of_4_no_dplus": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 39.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 39.0,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 30.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 4,
+        "duration_min": 39.0,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 15.0,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 24.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 6,
+        "duration_min": 84.0,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 30.0,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "SPECIFIC_w2_of_4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 50.5,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 405.0,
+        "day_position": 2,
+        "duration_min": 50.5,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 38.9,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 810.0,
+        "day_position": 4,
+        "duration_min": 50.5,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 19.4,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 31.1,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1215.0,
+        "day_position": 6,
+        "duration_min": 108.9,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 270.0,
+        "day_position": 7,
+        "duration_min": 38.9,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "SPECIFIC_w3_of_4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 53.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 431.0,
+        "day_position": 2,
+        "duration_min": 53.8,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 41.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 862.0,
+        "day_position": 4,
+        "duration_min": 53.8,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 20.7,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 33.1,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1294.0,
+        "day_position": 6,
+        "duration_min": 115.9,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 288.0,
+        "day_position": 7,
+        "duration_min": 41.4,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "SPECIFIC_w4_of_4": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 30.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 244.0,
+        "day_position": 2,
+        "duration_min": 30.4,
+        "intensity_zone": "SV2",
+        "notes": "cruise intervals 5-10min, D+ intégré si possible",
+        "priority": "HARD",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 488.0,
+        "day_position": 4,
+        "duration_min": 30.4,
+        "intensity_zone": "côtes longues VAM cible",
+        "notes": "5-15min pente modérée, spécifique D+ course",
+        "priority": "HARD",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 11.7,
+        "intensity_zone": "",
+        "notes": "excentrique prioritaire (prépa descente)",
+        "priority": "MODERATE",
+        "role": "RENFO"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 18.7,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 731.0,
+        "day_position": 6,
+        "duration_min": 65.5,
+        "intensity_zone": "Z1-Z2 + blocs allure course",
+        "notes": "D+/D- représentatif de la course cible, nutrition en conditions réelles",
+        "priority": "HARD",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 162.0,
+        "day_position": 7,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "back-to-back optionnel: 2e jour en fatigue cumulée",
+        "priority": "MODERATE",
+        "role": "SL"
+      }
+    ],
+    "TAPER_custom_decay_w2_of_3": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 56.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 42.0,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 28.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 630.0,
+        "day_position": 4,
+        "duration_min": 33.6,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 42.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1470.0,
+        "day_position": 6,
+        "duration_min": 78.4,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "TAPER_w1_of_2_no_dplus": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 48.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 36.0,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 24.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 4,
+        "duration_min": 28.8,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 36.0,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 6,
+        "duration_min": 67.2,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "TAPER_w1_of_3": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 61.2,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 45.9,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 30.6,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 638.0,
+        "day_position": 4,
+        "duration_min": 36.7,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 45.9,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1488.0,
+        "day_position": 6,
+        "duration_min": 85.7,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "TAPER_w2_of_3": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 46.8,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 35.1,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 23.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 488.0,
+        "day_position": 4,
+        "duration_min": 28.1,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 35.1,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 1138.0,
+        "day_position": 6,
+        "duration_min": 65.5,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ],
+    "TAPER_w3_of_3": [
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 1,
+        "duration_min": 32.4,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 2,
+        "duration_min": 24.3,
+        "intensity_zone": "SV2",
+        "notes": "court, 2-3x8min, maintien stimulus",
+        "priority": "MODERATE",
+        "role": "SEUIL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 3,
+        "duration_min": 16.2,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "RECUP"
+      },
+      {
+        "d_plus_target_m": 338.0,
+        "day_position": 4,
+        "duration_min": 19.4,
+        "intensity_zone": "côtes courtes",
+        "notes": "rappel neuromusculaire, volume faible",
+        "priority": "MODERATE",
+        "role": "COTES"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 5,
+        "duration_min": 24.3,
+        "intensity_zone": "Z1",
+        "notes": "",
+        "priority": "SOFT",
+        "role": "EF"
+      },
+      {
+        "d_plus_target_m": 788.0,
+        "day_position": 6,
+        "duration_min": 45.4,
+        "intensity_zone": "Z1",
+        "notes": "D+ réduit, priorité fraîcheur, pas de bloc allure course",
+        "priority": "MODERATE",
+        "role": "SL"
+      },
+      {
+        "d_plus_target_m": 0.0,
+        "day_position": 7,
+        "duration_min": 0.0,
+        "intensity_zone": "",
+        "notes": "repos complet",
+        "priority": "SOFT",
+        "role": "RECUP"
+      }
+    ]
+  }
+}

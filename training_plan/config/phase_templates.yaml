@@ -1,0 +1,171 @@
+# Templates de squelette hebdomadaire par phase ("squelette de coach", statique).
+# Les duration_ratio d'une phase doivent sommer à ~1.0.
+# Les d_plus_ratio d'une phase doivent sommer à ~1.0 (uniquement pertinent
+# pour les slots qui portent du dénivelé : SL, COTES, parfois SEUIL en trail).
+
+BASE:
+  - role: EF
+    day_position: 1
+    priority: SOFT
+    duration_ratio: 0.16
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: "EF facile, terrain roulant"
+  - role: SEUIL
+    day_position: 2
+    priority: HARD
+    duration_ratio: 0.14
+    d_plus_ratio: 0.10
+    intensity_zone: "SV1-SV2"
+    notes: "tempo continu 20-30min"
+  - role: EF
+    day_position: 3
+    priority: SOFT
+    duration_ratio: 0.14
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: ""
+  - role: COTES
+    day_position: 4
+    priority: HARD
+    duration_ratio: 0.12
+    d_plus_ratio: 0.25
+    intensity_zone: "côtes courtes 10-15%"
+    notes: "force/puissance, faible impact articulaire"
+  - role: RENFO
+    day_position: 5
+    priority: MODERATE
+    duration_ratio: 0.06
+    d_plus_ratio: 0.0
+    intensity_zone: ""
+    notes: "excentrique + force max basse vitesse"
+  - role: EF
+    day_position: 5
+    priority: SOFT
+    duration_ratio: 0.10
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: ""
+  - role: SL
+    day_position: 6
+    priority: HARD
+    duration_ratio: 0.24
+    d_plus_ratio: 0.55
+    intensity_zone: "Z1-Z2"
+    notes: "D+ modéré, focus volume/déplétion"
+  - role: RECUP
+    day_position: 7
+    priority: SOFT
+    duration_ratio: 0.04
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: "décrassage ou repos"
+
+SPECIFIC:
+  - role: EF
+    day_position: 1
+    priority: SOFT
+    duration_ratio: 0.13
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: ""
+  - role: SEUIL
+    day_position: 2
+    priority: HARD
+    duration_ratio: 0.13
+    d_plus_ratio: 0.15
+    intensity_zone: "SV2"
+    notes: "cruise intervals 5-10min, D+ intégré si possible"
+  - role: EF
+    day_position: 3
+    priority: SOFT
+    duration_ratio: 0.10
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: ""
+  - role: COTES
+    day_position: 4
+    priority: HARD
+    duration_ratio: 0.13
+    d_plus_ratio: 0.30
+    intensity_zone: "côtes longues VAM cible"
+    notes: "5-15min pente modérée, spécifique D+ course"
+  - role: RENFO
+    day_position: 5
+    priority: MODERATE
+    duration_ratio: 0.05
+    d_plus_ratio: 0.0
+    intensity_zone: ""
+    notes: "excentrique prioritaire (prépa descente)"
+  - role: EF
+    day_position: 5
+    priority: SOFT
+    duration_ratio: 0.08
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: ""
+  - role: SL
+    day_position: 6
+    priority: HARD
+    duration_ratio: 0.28
+    d_plus_ratio: 0.45
+    intensity_zone: "Z1-Z2 + blocs allure course"
+    notes: "D+/D- représentatif de la course cible, nutrition en conditions réelles"
+  - role: SL
+    day_position: 7
+    priority: MODERATE
+    duration_ratio: 0.10
+    d_plus_ratio: 0.10
+    intensity_zone: "Z1"
+    notes: "back-to-back optionnel: 2e jour en fatigue cumulée"
+
+TAPER:
+  - role: EF
+    day_position: 1
+    priority: SOFT
+    duration_ratio: 0.20
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: ""
+  - role: SEUIL
+    day_position: 2
+    priority: MODERATE
+    duration_ratio: 0.15
+    d_plus_ratio: 0.0
+    intensity_zone: "SV2"
+    notes: "court, 2-3x8min, maintien stimulus"
+  - role: RECUP
+    day_position: 3
+    priority: SOFT
+    duration_ratio: 0.10
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: ""
+  - role: COTES
+    day_position: 4
+    priority: MODERATE
+    duration_ratio: 0.12
+    d_plus_ratio: 0.30
+    intensity_zone: "côtes courtes"
+    notes: "rappel neuromusculaire, volume faible"
+  - role: EF
+    day_position: 5
+    priority: SOFT
+    duration_ratio: 0.15
+    d_plus_ratio: 0.0
+    intensity_zone: "Z1"
+    notes: ""
+  - role: SL
+    day_position: 6
+    priority: MODERATE
+    duration_ratio: 0.28
+    d_plus_ratio: 0.70
+    intensity_zone: "Z1"
+    notes: "D+ réduit, priorité fraîcheur, pas de bloc allure course"
+  - role: RECUP
+    day_position: 7
+    priority: SOFT
+    duration_ratio: 0.00
+    d_plus_ratio: 0.0
+    intensity_zone: ""
+    notes: "repos complet"

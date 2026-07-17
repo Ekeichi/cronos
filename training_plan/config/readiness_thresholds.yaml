@@ -1,0 +1,12 @@
+# Seuils de classification du readiness et garde-fous ACWR/monotony.
+
+readiness_thresholds:
+  critical_max: 30   # score <= 30 -> CRITICAL
+  low_max: 50        # score <= 50 -> LOW
+  high_min: 80        # score >= 80 -> HIGH
+
+# Garde-fous : un score correct ne suffit pas si la charge récente est
+# elle-même dangereuse (pic brutal ou monotonie excessive). Ces seuils
+# dégradent la bande calculée à partir du seul score.
+acwr_danger_threshold: 1.5      # au-delà, risque de blessure documenté (Gabbett)
+monotony_danger_threshold: 2.0  # au-delà, charge trop répétitive (Foster)

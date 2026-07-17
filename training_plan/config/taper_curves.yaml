@@ -1,0 +1,9 @@
+# Progression TAPER : décroissance monotone dédiée, PAS un cycle build/deload.
+# Le taper n'a pas la même forme qu'un mésocycle BASE/SPECIFIC : pas de montée,
+# juste une réduction progressive du volume à mesure qu'on approche la course.
+# Courbes par défaut selon la durée du taper (1 à 3 semaines, cas les plus
+# courants). Dernière valeur = semaine de course.
+
+1: [0.55]
+2: [0.80, 0.55]
+3: [0.85, 0.65, 0.45]
