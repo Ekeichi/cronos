@@ -1,0 +1,10 @@
+# Version de la politique de décision (generation/ + readiness/ combinés).
+#
+# À incrémenter manuellement à chaque changement de comportement significatif
+# dans generation/ ou readiness/ (nouveau ratio de template, nouveau seuil
+# readiness, nouvelle règle d'ajustement). C'est ce qui permet, dans les
+# données collectées par io/event_log.py, de distinguer quelle version de la
+# politique a produit quelle décision — indispensable avant d'introduire de
+# l'exploration randomisée ou une nouvelle heuristique.
+
+current: "v1"

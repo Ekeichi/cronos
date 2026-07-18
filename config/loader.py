@@ -87,6 +87,11 @@ def load_rpe_config() -> tuple[dict[str, float], float, float]:
     )
 
 
+def load_policy_version() -> str:
+    raw = _load_yaml("policy_version.yaml")
+    return str(raw["current"])
+
+
 PHASE_TEMPLATES: dict[Phase, list[SlotTemplate]] = load_phase_templates()
 DEFAULT_TAPER_DECAY: dict[int, list[float]] = load_taper_curves()
 DEFAULT_READINESS_THRESHOLDS, ACWR_DANGER_THRESHOLD, MONOTONY_DANGER_THRESHOLD = load_readiness_thresholds()
@@ -98,3 +103,4 @@ MESOCYCLE_PROGRESSION_DEFAULT, MESOCYCLE_PROGRESSION_FALLBACK = load_mesocycle_p
 ) = load_readiness_adjustment_factors()
 CRITICAL_EXIT_MARGIN, LOW_EXIT_MARGIN = load_readiness_hysteresis()
 EXPECTED_RPE_BY_ROLE, RPE_DEVIATION_LOW_THRESHOLD, RPE_DEVIATION_CRITICAL_THRESHOLD = load_rpe_config()
+CURRENT_POLICY_VERSION: str = load_policy_version()

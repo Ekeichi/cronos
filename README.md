@@ -7,7 +7,8 @@ de macrocycle, et couche d'ajustement par readiness.
 
 ```
 domain/       modèles et enums partagés (dataclasses) : SessionSlot,
-              SlotTemplate, MacrocycleBlock, ReadinessSignals, Phase,
+              SlotTemplate, MacrocycleBlock, ReadinessSignals,
+              SessionFeedback, DecisionEvent, FeedbackEvent, Phase,
               SessionRole, Priority, ReadinessBand.
 
 generation/   déterministe, stable. Construit le "plan idéal si tout va
@@ -29,7 +30,13 @@ config/       paramètres calibrables sans redéploiement de code : templates
               config/loader.py — c'est le seul point du package qui connaît
               le format YAML sur disque.
 
-io/           export du plan généré vers des formats externes (CSV).
+persistence/  export du plan généré vers des formats externes (CSV), et
+              journalisation append-only (JSONL) des décisions et feedbacks
+              pour constituer un historique par athlète. Effet de bord
+              explicite, appelé depuis l'extérieur de generation/ et
+              readiness/ (jamais depuis ces couches elles-mêmes, qui
+              restent pures). Nommé "persistence" et non "io" pour éviter
+              la collision avec le module stdlib du même nom.
 
 tests/        tests unitaires + non-régression (golden file capturé depuis
               l'ancien module monolithique, voir tests/fixtures/).

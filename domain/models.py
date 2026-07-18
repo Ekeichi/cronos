@@ -53,6 +53,14 @@ class ReadinessSignals:
     monotony: float = 1.0   # index de Foster (moyenne/écart-type charge 7j)
     acwr: float = 1.0       # acute:chronic workload ratio (charge 7j / charge 28j)
 
+    def as_dict(self) -> dict:
+        return {
+            "score": round(self.score, 1),
+            "tsb": round(self.tsb, 1),
+            "monotony": round(self.monotony, 2),
+            "acwr": round(self.acwr, 2),
+        }
+
 
 @dataclass
 class SessionFeedback:
@@ -63,3 +71,12 @@ class SessionFeedback:
     actual_duration_min: float = 0.0
     completed_as_planned: bool = True
     notes: str = ""
+
+    def as_dict(self) -> dict:
+        return {
+            "role": self.role.value,
+            "rpe": round(self.rpe, 1),
+            "actual_duration_min": round(self.actual_duration_min, 1),
+            "completed_as_planned": self.completed_as_planned,
+            "notes": self.notes,
+        }
