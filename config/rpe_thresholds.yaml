@@ -1,0 +1,20 @@
+# RPE post-séance (Borg CR10, 0-10) attendu par rôle de séance, et seuils de
+# déviation (rpe réel - rpe attendu) utilisés par readiness/feedback.py pour
+# faire surclasser la classification par score composite quand la séance
+# vécue a été nettement plus dure que prévu.
+#
+# Ces valeurs de RPE attendu par rôle sont des points de départ à calibrer
+# sur les données réelles des beta testeurs, comme déjà noté pour
+# phase_templates.yaml.
+
+expected_rpe_by_role:
+  EF: 3
+  SEUIL: 6
+  VMA: 8
+  COTES: 7
+  SL: 5
+  RENFO: 4
+  RECUP: 2
+
+rpe_deviation_low_threshold: 2       # déviation >= 2 force au moins LOW
+rpe_deviation_critical_threshold: 4  # déviation >= 4 force CRITICAL

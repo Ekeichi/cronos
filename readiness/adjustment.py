@@ -6,7 +6,7 @@ from config.loader import (
     SL_CRITICAL_SHORTEN_FACTOR,
 )
 from domain.enums import Priority, ReadinessBand, SessionRole
-from domain.models import ReadinessSignals, SessionSlot
+from domain.models import ReadinessSignals, SessionFeedback, SessionSlot
 from readiness.classification import classify_readiness
 
 # --- Helpers de transformation d'un slot ------------------------------------
@@ -92,11 +92,29 @@ def adjust_session(slot: SessionSlot, band: ReadinessBand) -> SessionSlot:
     return slot  # EF, RECUP
 
 
-def adjust_week(week_slots: list[SessionSlot], signals: ReadinessSignals) -> list[SessionSlot]:
+def adjust_week(
+    week_slots: list[SessionSlot],
+    signals: ReadinessSignals,
+    previous_band: ReadinessBand | None = None,
+    last_session_feedback: SessionFeedback | None = None,
+) -> tuple[list[SessionSlot], ReadinessBand]:
     """
     Applique adjust_session à toute une semaine à partir d'un seul jeu de
     signaux readiness (v1 : un score représentatif de la semaine, ou appelé
     jour par jour en amont si le readiness est recalculé quotidiennement).
+
+    previous_band et last_session_feedback sont transmis tels quels à
+    classify_readiness (hystérésis et override RPE respectivement) ; laissés
+    à None, le comportement est identique à l'ancienne version stateless.
+
+    Renvoie un tuple (slots ajustés, bande retenue) : l'appelant doit
+    persister la bande retenue pour la fournir comme previous_band au
+    prochain appel (c'est ce qui fait fonctionner l'hystérésis d'un jour
+    sur l'autre).
     """
-    band = classify_readiness(signals)
-    return [adjust_session(slot, band) for slot in week_slots]
+    band = classify_readiness(
+        signals,
+        previous_band=previous_band,
+        last_session_feedback=last_session_feedback,
+    )
+    return [adjust_session(slot, band) for slot in week_slots], band

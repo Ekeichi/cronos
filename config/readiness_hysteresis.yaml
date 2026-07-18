@@ -1,0 +1,13 @@
+# Hystérésis asymétrique sur les transitions de bande readiness.
+#
+# Principe : dégrader une bande reste immédiat (aucune marge à l'entrée de
+# CRITICAL ou LOW). Remonter d'une bande dégradée exige en revanche que le
+# score dépasse le seuil habituel d'une marge supplémentaire — on protège
+# vite, on améliore lentement. Voir readiness/classification.py.
+
+critical_exit_margin: 5   # pour sortir de CRITICAL vers LOW, score > critical_max + cette marge
+low_exit_margin: 5        # pour sortir de LOW vers NORMAL, score > low_max + cette marge
+
+# Pas de marge sur la frontière NORMAL/HIGH : HIGH n'a aucun effet différencié
+# dans adjust_session en v1 (mêmes règles que NORMAL), donc une hystérésis à
+# cette frontière serait sans objet pour l'instant.

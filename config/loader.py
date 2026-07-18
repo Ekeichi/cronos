@@ -70,6 +70,23 @@ def load_readiness_adjustment_factors() -> tuple[float, float, float]:
     )
 
 
+def load_readiness_hysteresis() -> tuple[float, float]:
+    raw = _load_yaml("readiness_hysteresis.yaml")
+    return (
+        float(raw["critical_exit_margin"]),
+        float(raw["low_exit_margin"]),
+    )
+
+
+def load_rpe_config() -> tuple[dict[str, float], float, float]:
+    raw = _load_yaml("rpe_thresholds.yaml")
+    return (
+        {role: float(rpe) for role, rpe in raw["expected_rpe_by_role"].items()},
+        float(raw["rpe_deviation_low_threshold"]),
+        float(raw["rpe_deviation_critical_threshold"]),
+    )
+
+
 PHASE_TEMPLATES: dict[Phase, list[SlotTemplate]] = load_phase_templates()
 DEFAULT_TAPER_DECAY: dict[int, list[float]] = load_taper_curves()
 DEFAULT_READINESS_THRESHOLDS, ACWR_DANGER_THRESHOLD, MONOTONY_DANGER_THRESHOLD = load_readiness_thresholds()
@@ -79,3 +96,5 @@ MESOCYCLE_PROGRESSION_DEFAULT, MESOCYCLE_PROGRESSION_FALLBACK = load_mesocycle_p
     SL_CRITICAL_SHORTEN_FACTOR,
     RECUP_REPLACEMENT_DURATION_FACTOR,
 ) = load_readiness_adjustment_factors()
+CRITICAL_EXIT_MARGIN, LOW_EXIT_MARGIN = load_readiness_hysteresis()
+EXPECTED_RPE_BY_ROLE, RPE_DEVIATION_LOW_THRESHOLD, RPE_DEVIATION_CRITICAL_THRESHOLD = load_rpe_config()

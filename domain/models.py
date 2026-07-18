@@ -52,3 +52,14 @@ class ReadinessSignals:
     tsb: float = 0.0        # Training Stress Balance (Banister)
     monotony: float = 1.0   # index de Foster (moyenne/écart-type charge 7j)
     acwr: float = 1.0       # acute:chronic workload ratio (charge 7j / charge 28j)
+
+
+@dataclass
+class SessionFeedback:
+    """Retour post-séance sur la dernière séance dure. Pas de tags qualitatifs
+    de chatbot ici — hors scope, prévu pour plus tard."""
+    role: SessionRole
+    rpe: float                          # échelle Borg CR10, 0-10
+    actual_duration_min: float = 0.0
+    completed_as_planned: bool = True
+    notes: str = ""
