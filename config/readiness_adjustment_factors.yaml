@@ -1,0 +1,15 @@
+# Facteurs utilisés par readiness/adjustment.py pour moduler les séances
+# d'une semaine déjà générée en fonction de la bande de readiness du jour.
+
+# Séance HARD (SEUIL/VMA/COTES) maintenue mais réduite en bande LOW :
+# fraction du volume/D+ initial conservée.
+hard_session_low_reduction: 0.6
+
+# Sortie longue (SL) raccourcie en bande CRITICAL (jamais annulée entièrement) :
+# fraction du volume initial conservée.
+sl_critical_shorten: 0.5
+
+# Séance de remplacement (repos/récup) substituée à une séance HARD ou RENFO
+# en bande CRITICAL : fraction de la durée initiale de la séance remplacée
+# conservée pour la récup.
+recup_replacement_duration_factor: 0.5

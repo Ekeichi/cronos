@@ -1,0 +1,15 @@
+# Progression mésocycle (schéma 3:1 build/deload par défaut) : 3 semaines de
+# montée en charge (build) suivies d'une semaine deload (décharge) avant le
+# bloc suivant. Utilisé pour les mésocycles BASE/SPECIFIC — pas pour TAPER,
+# qui suit une décroissance monotone dédiée (voir taper_curves.yaml).
+
+progression:
+  # week_in_mesocycle (1-indexed) -> multiplicateur de volume hebdo
+  1: 1.00
+  2: 1.08
+  3: 1.15
+  4: 0.65   # semaine deload
+
+# Multiplicateur appliqué à toute semaine intermédiaire absente de la table
+# ci-dessus (mésocycles plus longs que ceux couverts explicitement).
+fallback: 1.10

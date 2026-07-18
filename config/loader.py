@@ -55,6 +55,27 @@ def load_readiness_thresholds() -> tuple[dict, float, float]:
     )
 
 
+def load_mesocycle_progression() -> tuple[dict[int, float], float]:
+    raw = _load_yaml("mesocycle_progression.yaml")
+    progression = {int(week): float(multiplier) for week, multiplier in raw["progression"].items()}
+    return progression, float(raw["fallback"])
+
+
+def load_readiness_adjustment_factors() -> tuple[float, float, float]:
+    raw = _load_yaml("readiness_adjustment_factors.yaml")
+    return (
+        float(raw["hard_session_low_reduction"]),
+        float(raw["sl_critical_shorten"]),
+        float(raw["recup_replacement_duration_factor"]),
+    )
+
+
 PHASE_TEMPLATES: dict[Phase, list[SlotTemplate]] = load_phase_templates()
 DEFAULT_TAPER_DECAY: dict[int, list[float]] = load_taper_curves()
 DEFAULT_READINESS_THRESHOLDS, ACWR_DANGER_THRESHOLD, MONOTONY_DANGER_THRESHOLD = load_readiness_thresholds()
+MESOCYCLE_PROGRESSION_DEFAULT, MESOCYCLE_PROGRESSION_FALLBACK = load_mesocycle_progression()
+(
+    HARD_SESSION_LOW_REDUCTION_FACTOR,
+    SL_CRITICAL_SHORTEN_FACTOR,
+    RECUP_REPLACEMENT_DURATION_FACTOR,
+) = load_readiness_adjustment_factors()

@@ -1,5 +1,10 @@
 """Couche readiness : ajustement des séances d'une semaine déjà générée."""
 
+from config.loader import (
+    HARD_SESSION_LOW_REDUCTION_FACTOR,
+    RECUP_REPLACEMENT_DURATION_FACTOR,
+    SL_CRITICAL_SHORTEN_FACTOR,
+)
 from domain.enums import Priority, ReadinessBand, SessionRole
 from domain.models import ReadinessSignals, SessionSlot
 from readiness.classification import classify_readiness
@@ -13,7 +18,7 @@ def _downgrade_to_recup(slot: SessionSlot) -> SessionSlot:
         role=SessionRole.RECUP,
         day_position=slot.day_position,
         priority=Priority.SOFT,
-        duration_min=slot.duration_min * 0.5,
+        duration_min=slot.duration_min * RECUP_REPLACEMENT_DURATION_FACTOR,
         d_plus_target_m=0.0,
         intensity_zone="Z1",
         notes=f"[readiness] remplacé (repos/récup) — séance {slot.role.value} initialement prévue",
@@ -71,12 +76,12 @@ def adjust_session(slot: SessionSlot, band: ReadinessBand) -> SessionSlot:
         if band == ReadinessBand.CRITICAL:
             return _downgrade_to_recup(slot)
         if band == ReadinessBand.LOW:
-            return _reduce_intensity_session(slot, factor=0.6)
+            return _reduce_intensity_session(slot, factor=HARD_SESSION_LOW_REDUCTION_FACTOR)
         return slot  # NORMAL / HIGH inchangé pour l'instant (v1 prudente)
 
     if slot.role == SessionRole.SL:
         if band == ReadinessBand.CRITICAL:
-            return _shorten_long_session(slot, factor=0.5, drop_d_plus=True)
+            return _shorten_long_session(slot, factor=SL_CRITICAL_SHORTEN_FACTOR, drop_d_plus=True)
         return slot
 
     if slot.role == SessionRole.RENFO:

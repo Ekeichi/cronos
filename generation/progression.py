@@ -1,18 +1,12 @@
 """Multiplicateurs de volume hebdo : progression mésocycle et décroissance taper."""
 
-from config.loader import DEFAULT_TAPER_DECAY
+from config.loader import DEFAULT_TAPER_DECAY, MESOCYCLE_PROGRESSION_DEFAULT, MESOCYCLE_PROGRESSION_FALLBACK
 
 # ---------------------------------------------------------------------------
 # Progression mésocycle (schéma 3:1 build/deload par défaut)
 # ---------------------------------------------------------------------------
-
-DEFAULT_MESOCYCLE_PROGRESSION = {
-    # week_in_mesocycle (1-indexed) -> multiplicateur de volume hebdo
-    1: 1.00,
-    2: 1.08,
-    3: 1.15,
-    4: 0.65,   # semaine deload
-}
+# Le mapping semaine -> multiplicateur et le fallback intermédiaire sont
+# définis dans config/mesocycle_progression.yaml (chargés via config.loader).
 
 
 def _volume_multiplier(week_in_mesocycle: int, mesocycle_length: int) -> float:
@@ -21,8 +15,8 @@ def _volume_multiplier(week_in_mesocycle: int, mesocycle_length: int) -> float:
     mésocycle BASE ou SPECIFIC (schéma build puis deload en dernière semaine).
     """
     if week_in_mesocycle == mesocycle_length:
-        return DEFAULT_MESOCYCLE_PROGRESSION.get(4, 0.65)
-    return DEFAULT_MESOCYCLE_PROGRESSION.get(week_in_mesocycle, 1.10)
+        return MESOCYCLE_PROGRESSION_DEFAULT[4]
+    return MESOCYCLE_PROGRESSION_DEFAULT.get(week_in_mesocycle, MESOCYCLE_PROGRESSION_FALLBACK)
 
 
 # ---------------------------------------------------------------------------
