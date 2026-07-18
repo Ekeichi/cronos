@@ -1,6 +1,7 @@
 """Structures de données partagées par l'ensemble du projet."""
 
 from dataclasses import dataclass
+from datetime import date
 
 from domain.enums import Phase, Priority, SessionRole
 
@@ -80,3 +81,16 @@ class SessionFeedback:
             "completed_as_planned": self.completed_as_planned,
             "notes": self.notes,
         }
+
+
+@dataclass
+class AthletePlanContext:
+    """
+    Données nécessaires pour situer "aujourd'hui" dans le plan d'un athlète.
+    Pas de logique ici : la construction de macrocycle_plan (appel à
+    generate_macrocycle_plan) reste à la charge de l'appelant.
+    """
+    athlete_id: str
+    blocks: list[MacrocycleBlock]
+    macrocycle_plan: dict[int, list[SessionSlot]]  # résultat déjà calculé de generate_macrocycle_plan
+    plan_start_date: date                           # date correspondant à global_week=1, day_position=1

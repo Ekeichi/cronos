@@ -17,7 +17,7 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["domain", "generation", "readiness", "config", "persistence"]
+packages = ["domain", "generation", "readiness", "config", "persistence", "orchestration"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

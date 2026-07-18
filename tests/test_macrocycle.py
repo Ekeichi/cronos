@@ -2,7 +2,7 @@ import pytest
 
 from domain.enums import Phase
 from domain.models import MacrocycleBlock
-from generation.macrocycle import generate_macrocycle_plan
+from generation.macrocycle import generate_macrocycle_plan, resolve_block_position
 
 
 # ---------------------------------------------------------------------------
@@ -82,3 +82,40 @@ def test_taper_does_not_use_theoretical_base_volume():
     taper_volume = sum(s.duration_min for s in plan[2])
     assert taper_volume == pytest.approx(peak_volume * 0.55)
     assert taper_volume != pytest.approx(theoretical_volume_if_using_base)
+
+
+# ---------------------------------------------------------------------------
+# resolve_block_position : cohérence avec generate_macrocycle_plan
+# ---------------------------------------------------------------------------
+
+def test_resolve_block_position_matches_blocks_used_by_generate_macrocycle_plan():
+    blocks = [
+        MacrocycleBlock(phase=Phase.BASE, n_weeks=4),
+        MacrocycleBlock(phase=Phase.SPECIFIC, n_weeks=4),
+        MacrocycleBlock(phase=Phase.SPECIFIC, n_weeks=2),
+        MacrocycleBlock(phase=Phase.TAPER, n_weeks=2),
+    ]
+    plan = generate_macrocycle_plan(blocks=blocks, base_weekly_volume_min=360, base_weekly_d_plus_m=2500)
+
+    global_week = 1
+    for block in blocks:
+        for week_in_block in range(1, block.n_weeks + 1):
+            phase, resolved_week_in_block, resolved_block_length = resolve_block_position(blocks, global_week)
+            assert phase == block.phase, global_week
+            assert resolved_week_in_block == week_in_block, global_week
+            assert resolved_block_length == block.n_weeks, global_week
+            assert global_week in plan
+            global_week += 1
+
+    total_weeks = sum(b.n_weeks for b in blocks)
+    assert set(plan.keys()) == set(range(1, total_weeks + 1))
+
+
+def test_resolve_block_position_out_of_bounds_raises():
+    blocks = [MacrocycleBlock(phase=Phase.BASE, n_weeks=4), MacrocycleBlock(phase=Phase.TAPER, n_weeks=2)]
+    total_weeks = sum(b.n_weeks for b in blocks)
+
+    with pytest.raises(ValueError):
+        resolve_block_position(blocks, 0)
+    with pytest.raises(ValueError):
+        resolve_block_position(blocks, total_weeks + 1)

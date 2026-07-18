@@ -38,6 +38,14 @@ persistence/  export du plan généré vers des formats externes (CSV), et
               restent pures). Nommé "persistence" et non "io" pour éviter
               la collision avec le module stdlib du même nom.
 
+orchestration/ compose generation/, readiness/ et persistence/ pour un
+              athlète et un jour donnés (run_daily_adjustment,
+              record_session_feedback). Pas un scheduler de production —
+              juste la logique de composition avec effets de bord (lecture
+              du dernier band, du feedback récent, écriture du log),
+              appelable telle quelle, prête à être branchée derrière un
+              scheduler ou une API plus tard.
+
 tests/        tests unitaires + non-régression (golden file capturé depuis
               l'ancien module monolithique, voir tests/fixtures/).
 ```
@@ -50,6 +58,9 @@ tests/        tests unitaires + non-régression (golden file capturé depuis
 - Aucune valeur calibrable (ratios de templates, courbes de taper, seuils de
   readiness) n'est hardcodée dans le code Python : tout passe par
   `config/loader.py`, qui lit les fichiers YAML de `config/`.
+- `generation/` et `readiness/` restent pures (aucune écriture disque) ; les
+  effets de bord (lecture d'historique, logging) vivent exclusivement dans
+  `orchestration/`, jamais à l'intérieur de ces deux couches.
 
 ## Note
 

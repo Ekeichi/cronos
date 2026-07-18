@@ -60,3 +60,28 @@ def generate_macrocycle_plan(
                 global_week += 1
 
     return plan
+
+
+def resolve_block_position(blocks: list[MacrocycleBlock], global_week: int) -> tuple[Phase, int, int]:
+    """
+    Renvoie (phase, week_in_block, block_length) pour le global_week donné,
+    en parcourant les blocs avec exactement la même logique (mêmes bornes,
+    même ordre) que generate_macrocycle_plan — mais sans générer aucun slot.
+
+    generate_macrocycle_plan ne renvoie que {semaine globale -> slots}, sans
+    garder trace de quelle phase/position a produit chaque semaine ; cette
+    fonction sert à retrouver cette position a posteriori (typiquement pour
+    construire un DecisionEvent en orchestration/).
+
+    Lève ValueError si global_week est hors bornes du macrocycle (même erreur
+    que le comportement implicite de generate_macrocycle_plan, qui ne
+    produirait simplement pas cette clé).
+    """
+    current_global_week = 1
+    for block in blocks:
+        for week_in_block in range(1, block.n_weeks + 1):
+            if current_global_week == global_week:
+                return block.phase, week_in_block, block.n_weeks
+            current_global_week += 1
+
+    raise ValueError(f"global_week {global_week} hors bornes du macrocycle")
